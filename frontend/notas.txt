@@ -1,0 +1,7 @@
+AQUI VA LA CARPETA dist/ GENERADA CON npm run build EN VUE
+
+(o cualquier web con index.html)
+
+
+Para iniciarlo:
+sudo docker-compose up -d

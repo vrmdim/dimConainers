@@ -1,0 +1,5 @@
+AQUI VA EL PROYECTO GRADLE DE SPRING TAL CUAL
+
+para ejecutarlo hacemos
+
+sudo docker-compose up -d

@@ -1,0 +1,17 @@
+VER notas.txt DE CADA CARPETA
+
+
+OTROS EJEMPLOS DE SERVICIOS CON ESTE ESQUEMA EN:
+
+https://blog.pctripsesp.com/services.html
+
+- moodle
+- nextcloud
+- wireguard
+- wordpress
+- photoprism
+...
+
+
+
+NECESARIO CREAR SUBDOMINIO TIPO "A" EN NUESTRO PANEL DE DOMINIOS DEL PROVEEDOR QUE SEA, QUE APUNTE A LA IP DE ESTE SERVIDOR

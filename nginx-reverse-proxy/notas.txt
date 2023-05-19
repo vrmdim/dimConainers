@@ -1,0 +1,9 @@
+MODIFICAMOS EL .env (nano .env)
+
+Y añadimos la ip de este servidor
+IP=100.100.100.100
+
+
+Después ejecutamos sudo ./start.sh
+
+
