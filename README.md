@@ -52,10 +52,31 @@ networks:
 
 Para iniciar los contenedores usamos `sudo docker-compose up -d`
 
+Si se quiere usar la autenticación básica de nginx para no permitir el acceso a la web sin contraseña, tomar de ejemplo este docker-compose.yml para el frontend
+
+```
+
+version: '2'
+services:
+  web:
+    image: nginx
+    volumes:
+      - './dist:/usr/share/nginx/html'
+      - './nginx.conf:/etc/nginx/conf.d/default.conf'
+      - './.htpasswd:/etc/nginx/.htpasswd'
+    restart: unless-stopped
+    ports:
+      - "80:80"
+
+```
+
+`sudo apt install apache2-utils`
+`htpasswd -c /path/to/your/.htpasswd user`
 
 ### REQUISITOS
 
 `sudo apt install docker.io docker-compose`
+
 
 
 ### Otros ejemplos de servicios siguiendo este esquema
